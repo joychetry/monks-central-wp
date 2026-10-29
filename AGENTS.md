@@ -14,7 +14,7 @@ rules are not optional.
 - Never register a REST route or ability without a real `permission_callback`.
 - Never enqueue assets globally. Admin assets load on the plugin's own screen;
   front-end assets load only where their markup renders.
-- Never autoload options. Settings live in `wps_settings` (autoload off).
+- Never autoload options. Settings live in `monks_central_settings` (autoload off).
 - Never commit `build/`, `vendor/`, `node_modules/` or `dist/`.
 - Never use em dashes in copy, comments or docs.
 
@@ -35,10 +35,10 @@ rules are not optional.
   route.
 - Escape output (`esc_html`, `esc_attr`, `esc_url`), sanitize input, check
   capabilities. REST nonces come from core via `apiFetch`.
-- Plain CSS scoped under a `.wps-` class, tweakables as custom properties.
-- Prefix: namespace `WpPluginStarter`, hooks and options `wps_`, handles and CSS
-  classes `wps-`, constants `WPS_`, REST namespace `wps/v1`, text domain
-  `wp-plugin-starter`.
+- Plain CSS scoped under a `.monks-central-` class, tweakables as custom properties.
+- Prefix: namespace `MonksCentral`, hooks and options `monks_central_`, handles and CSS
+  classes `monks-central-`, constants `MONKS_CENTRAL_`, REST namespace `monks-central/v1`, text domain
+  `monks-central`.
 - Delete everything the plugin stores in `uninstall.php`.
 - Check before every commit: `php -l` on changed PHP, `composer lint`,
   `composer analyse`, `composer test`, `npm run lint:js`, `npm run lint:css`,
