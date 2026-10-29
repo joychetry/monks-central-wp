@@ -26,7 +26,7 @@ rules are not optional.
   `Contracts\Module`, listed in `Plugin::MODULES`. `register()` only adds hooks,
   with class-string callables so classes load when the hook fires.
 - Settings fields are declared once in `Settings::fields()` (JSON Schema) and
-  mirrored in `assets-src/admin/settings.js`.
+  get a matching control on the admin screen.
 - Admin UI: React, `@wordpress/components`, DataViews for lists, DataForm for
   forms, `apiFetch` to REST. Front end: Interactivity API script modules with
   server-rendered markup (`wp_interactivity_process_directives()`).
@@ -50,4 +50,5 @@ rules are not optional.
 - Commit after each major change (new module, REST route, admin screen, docs
   section), one logical change per commit with a clear message.
 - Push to `origin main` only after the checks pass.
-- Never commit half-finished work. This repo is public.
+- Never commit half-finished work. This repo is private until a release is
+  approved; never make it public, tag or release without that approval.
