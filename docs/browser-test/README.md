@@ -8,7 +8,7 @@ were on for mc-c and monks-central-test during the run.
 - **monks-central-test**: Classic Monks Pro 2.6.0-dev (connector 1.1.1), with the
   v0.1.1 zip installed next to it for the coexistence check.
 
-PR with the fixes: see "Bugs and fixes" below.
+PR with the fixes: https://github.com/joychetry/monks-central-wp/pull/1
 
 ## Checks
 
