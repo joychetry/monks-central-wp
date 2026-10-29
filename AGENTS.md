@@ -20,7 +20,7 @@ rules are not optional.
 
 ## Always
 
-- WordPress 6.9+, PHP 8.1+. Namespaced classes under `src/` (PSR-4), no global
+- WordPress 7.1+, PHP 8.1+. Namespaced classes under `src/` (PSR-4), no global
   functions.
 - New features are modules: `src/Modules/<Name>/Module.php` implementing
   `Contracts\Module`, listed in `Plugin::MODULES`. `register()` only adds hooks,
