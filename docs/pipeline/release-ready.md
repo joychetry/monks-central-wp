@@ -113,7 +113,7 @@ their test data and grants are as step 4 left them. Ports used: 8888 and 8889 on
 
 ## Decisions
 
-- **1.0.0, not 0.x.** The goal asks for a 1.0.0 changelog. The connector is at 1.1.0 and already runs on
+- **1.0.0, not 0.x** (superseded: Joy chose 0.1.0 on 2026-10-29, see the checklist). The goal asked for 1.0.0. The connector is at 1.1.0 and already runs on
   Classic Monks sites. Joy can still pick another number (see the checklist).
 - **Plugin Check runs on the wp.org build in both workflows.** The GitHub build has the updater on purpose, and
   Plugin Check rejects every self-updater. The wp.org build is what a reviewer would see.
