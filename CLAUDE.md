@@ -38,7 +38,8 @@ rules are not optional.
 - Plain CSS scoped under a `.monks-central-` class, tweakables as custom properties.
 - Prefix: namespace `MonksCentral`, hooks and options `monks_central_`, handles and CSS
   classes `monks-central-`, constants `MONKS_CENTRAL_`, REST namespace `monks-central/v1`, text domain
-  `monks-central`.
+  `wp-sites-hq` (the plugin is WP Sites HQ in folder `wp-sites-hq`; the `monks_central`
+  names stay so sites keep their data).
 - Delete everything the plugin stores in `uninstall.php`.
 - Check before every commit: `php -l` on changed PHP, `composer lint`,
   `composer analyse`, `composer test`, `npm run lint:js`, `npm run lint:css`,
